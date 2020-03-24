@@ -2,7 +2,7 @@
   "name": "@jsfn/zip",
   "version": "1.0.0",
   "description": "zip function",
-  "repository": "jsfn/zip",
+  "repository": "js-fn/zip",
   "type": "module",
   "main": "zip.mjs",
   "scripts": {
@@ -12,7 +12,7 @@
     "cover": ". ./scripts.sh; cover"
   },
   "keywords": [],
-  "author": "Andrea Parodi (andrea@parro.it)",
+  "author": "Andrea Parodi <andrea@parro.it>",
   "license": "MIT",
   "devDependencies": {
     "codecov": "^3.6.5",

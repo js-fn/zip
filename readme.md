@@ -1,4 +1,6 @@
-# Template strings power tools
+# Zip function
 
-[![codecov](https://codecov.io/gh/parro-it/template-str-pt/branch/master/graph/badge.svg?token=wElVyxkYEu)](https://codecov.io/gh/parro-it/template-str-pt)
+[![codecov](https://codecov.io/js-fn/zip/branch/master/graph/badge.svg?token=wElVyxkYEu)](https://codecov.io/js-fn/zip)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Actions Status](https://github.com/js-fn/zip/workflows/Codecov/badge.svg)](https://github.com/js-fn/zip/actions)
+![npm](https://img.shields.io/npm/v/js-fn/zip)
