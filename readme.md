@@ -6,4 +6,4 @@
 
 [![CI tests](https://github.com/js-fn/zip/workflows/CI/badge.svg?refresh)](https://github.com/js-fn/zip/actions?query=workflow%3ACI)
 
-![npm](https://img.shields.io/npm/v/js-fn/zip?refresh)
+![npm](https://img.shields.io/npm/v/@jsfn/zip?refresh)
