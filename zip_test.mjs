@@ -26,8 +26,8 @@ test("zip throw if any arguments is not an iterable", (t) => {
   t.throws(() => zip(42).next(), "Iterable arguments expected.");
 });
 
-test("zip returns an empty array when given no input arguments", (t) => {
-  t.deepEqual([...zip()], []);
+test("zip returns an empty iterator when given no input arguments", (t) => {
+  t.deepEqual(zip().next(), { done: true, value: undefined });
 });
 
 test("zip accepts generator functions", (t) => {

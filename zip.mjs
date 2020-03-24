@@ -3,21 +3,9 @@
 // If one or more input iterables ends before the others, their places in the output
 // get filled with `undefined` values.
 export function* zip(...iterables) {
-  if (
-    // TODO: implement `some` for iterables
-    [...iterables].some((iter) => {
-      const res = typeof iter[Symbol.iterator] !== "function";
-
-      return res;
-    })
-  ) {
+  // TODO: implement `some` for iterables
+  if ([...iterables].some(not(isIterable))) {
     throw new TypeError("Iterable arguments expected.");
-  }
-
-  const firstIter = first(iterables);
-
-  if (firstIter === null) {
-    return [];
   }
 
   // TODO: implement `map` for iterables
@@ -39,13 +27,19 @@ export function* zip(...iterables) {
     if (allItersDone) {
       return;
     }
+
     yield resTuple;
   }
 }
 
-function first(iterator) {
-  for (const item of iterator) {
-    return item;
-  }
-  return null;
+function not(fn) {
+  return (...args) => !fn(...args);
+}
+
+function isIterable(iter) {
+  return (
+    typeof iter === "object" &&
+    iter !== null &&
+    typeof iter[Symbol.iterator] === "function"
+  );
 }
