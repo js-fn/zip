@@ -1,5 +1,6 @@
 <center>
   <h1>Zip function</h1>
+  test
   <p>
     <a href="https://codecov.io/js-fn/zip" rel="nofollow">
       <img src="https://codecov.io/gh/js-fn/zip/branch/master/graph/badge.svg?refresh">
