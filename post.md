@@ -56,6 +56,12 @@ Python calls `zip` which each element of your list as an argument, like this:
 
 This is why an `unzip` function isn't necessary: Unzipping is just another kind of zip, and is easily achievable with just the `zip` function and the `*` operator.
 
-## Async input iterables.
+## Partial application of option object argument
 
-## Iterable that yields promises.
+## Async input iterables
+
+## Input iterable that yields promises
+
+## Convolution wiki page
+
+https://en.wikipedia.org/wiki/Convolution_(computer_science)
